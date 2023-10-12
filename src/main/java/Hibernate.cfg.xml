@@ -7,9 +7,9 @@
             
     <property name="hbm2ddl.auto">update</property>    
     <property name="dialect">org.hibernate.dialect.MySQL5Dialect</property>    
-    <property name="connection.url">jdbc:mysql://localhost:3306/jfsd_2100030548</property>    
+    <property name="connection.url">jdbc:mysql://localhost:3306/yourdb_schema</property>    
     <property name="connection.username">root</property>    
-    <property name="connection.password">pavan</property>    
+    <property name="connection.password">your password</property>    
     <property name="connection.driver_class">com.mysql.jdbc.Driver</property>   
     <mapping class="com.klu.JFSD_LAB.Student"/> 
      
